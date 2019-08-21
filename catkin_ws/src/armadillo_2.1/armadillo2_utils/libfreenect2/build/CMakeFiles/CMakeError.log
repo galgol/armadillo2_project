@@ -1,0 +1,124 @@
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7cf7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7cf7.dir/build.make CMakeFiles/cmTC_a7cf7.dir/build
+make[1]: Entering directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7cf7.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a7cf7.dir/CheckSymbolExists.c.o   -c /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a7cf7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a7cf7.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a7cf7.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7cf7/fast' failed
+make: *** [cmTC_a7cf7/fast] Error 2
+
+File /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_821a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_821a8.dir/build.make CMakeFiles/cmTC_821a8.dir/build
+make[1]: Entering directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_821a8.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_821a8.dir/CheckSymbolExists.c.o   -c /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_821a8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_821a8.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_821a8.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_821a8/fast' failed
+make: *** [cmTC_821a8/fast] Error 2
+
+File /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08adf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08adf.dir/build.make CMakeFiles/cmTC_08adf.dir/build
+make[1]: Entering directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08adf.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_08adf.dir/CheckSymbolExists.c.o   -c /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_08adf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_08adf.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_08adf.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_08adf/fast' failed
+make: *** [cmTC_08adf/fast] Error 2
+
+File /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a139/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a139.dir/build.make CMakeFiles/cmTC_9a139.dir/build
+make[1]: Entering directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a139.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9a139.dir/CheckSymbolExists.c.o   -c /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_9a139.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9a139.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9a139.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a139/fast' failed
+make: *** [cmTC_9a139/fast] Error 2
+
+File /home/gazebo/catkin_ws/src/armadillo_2.1/armadillo2_utils/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

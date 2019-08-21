@@ -1,0 +1,14 @@
+/home/gazebo/freenect2/lib/libfreenect2.so.0.2.0
+/home/gazebo/freenect2/lib/libfreenect2.so.0.2
+/home/gazebo/freenect2/lib/libfreenect2.so
+/home/gazebo/freenect2/include/libfreenect2/frame_listener.hpp
+/home/gazebo/freenect2/include/libfreenect2/libfreenect2.hpp
+/home/gazebo/freenect2/include/libfreenect2/registration.h
+/home/gazebo/freenect2/include/libfreenect2/frame_listener_impl.h
+/home/gazebo/freenect2/include/libfreenect2/logger.h
+/home/gazebo/freenect2/include/libfreenect2/packet_pipeline.h
+/home/gazebo/freenect2/include/libfreenect2/export.h
+/home/gazebo/freenect2/include/libfreenect2/config.h
+/home/gazebo/freenect2/lib/cmake/freenect2/freenect2Config.cmake
+/home/gazebo/freenect2/lib/cmake/freenect2/freenect2ConfigVersion.cmake
+/home/gazebo/freenect2/lib/pkgconfig/freenect2.pc
